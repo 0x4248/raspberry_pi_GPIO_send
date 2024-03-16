@@ -9,7 +9,7 @@ CFLAGS = -O3 -Wall -lwiringPi
 
 SRC = src
 MAIN = main.c
-OUT = gpio_send
+OUT = pi_gpio_send
 BIN = bin
 
 all: init $(OUT)

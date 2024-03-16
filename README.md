@@ -5,11 +5,11 @@ Send a file trough the GPIO pins of a Raspberry Pi using the wiringPi library.
 ## Usage
 
 ```bash
-gpio_send <file> <pin> <delay>
+pi_gpio_send <file> <pin> <delay>
 ```
 
 ```bash
-gpio_send file.bin 0 20
+pi_gpio_send file.bin 0 20
 ```
 
 ## Building
