@@ -18,6 +18,9 @@ void sendBit(int bit, int pin, float delay_time) {
 int main(int argc, char *argv[]) {
     if (argc != 4) {
         printf("Usage: %s [FILE] [PIN] [DELAY]\n", argv[0]);
+        printf("\tFILE: The file to send\n");
+        printf("\tPIN: The pin to use\n");
+        printf("\tDELAY: The delay between bits being sent\n");
         return 1;
     }
 
